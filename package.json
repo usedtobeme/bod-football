@@ -1,0 +1,11 @@
+{
+  "name": "bod-football",
+  "version": "1.0.0",
+  "description": "Tool for Endavans to book their football spot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Amortegui <ivan.amortegui@gmail.com> (http://twitter.com/_usedtobeme)",
+  "license": "MIT"
+}
