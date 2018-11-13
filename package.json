@@ -2,10 +2,27 @@
   "name": "bod-football",
   "version": "1.0.0",
   "description": "Tool for Endavans to book their football spot",
+  "repository": "https: //github.com/usedtobeme/bod-football",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel ./build/index.html"
   },
   "author": "Ivan Amortegui <ivan.amortegui@gmail.com> (http://twitter.com/_usedtobeme)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@firebase/app-types": "^0.3.2",
+    "parcel": "^1.10.3",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "firebase": "^5.5.8",
+    "moment": "^2.22.2",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-observable": "^1.0.0",
+    "rxjs": "^6.3.3",
+    "styled-components": "^4.0.3"
+  }
 }
